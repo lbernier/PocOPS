@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build --prod",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "postinstall": "ng build --aot --prod"
   },
   "private": true,
   "dependencies": {
@@ -14,6 +15,7 @@
     "@angular/common": "~13.2.0",
     "@angular/cli": "~13.2.3",
     "@angular/compiler": "~13.2.0",
+    "@angular/compiler-cli": "~13.2.0",
     "@angular/core": "~13.2.0",
     "@angular/forms": "~13.2.0",
     "@angular/platform-browser": "~13.2.0",
@@ -25,8 +27,6 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~13.2.3",
-    "@angular/cli": "~13.2.3",
-    "@angular/compiler-cli": "~13.2.0",
     "@types/jasmine": "~3.10.0",
     "@types/node": "^12.11.1",
     "jasmine-core": "~4.0.0",
