@@ -8,6 +8,8 @@ Asociar el folder del proyecto angular a Git :
             https://www.entechlog.com/blog/general/how-to-add-existing-folder-to-git/
 Crear el pipeline en Heroku asociado a Git ( al hacer push en git , se actualiza Heroku )
 
+git push => $ git push -f origin master
+
 
 # PocOPS
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
