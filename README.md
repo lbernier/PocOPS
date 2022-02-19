@@ -10,6 +10,13 @@ Crear el pipeline en Heroku asociado a Git ( al hacer push en git , se actualiza
 
 git push => $ git push -f origin master
 
+Para hacer hablar git con heroku , esta guia puede ser importante :
+             https://stanislas.blog/2020/04/deploy-angular-app-heroku/
+
+Y se debe definir la siguiente variable dentro de Heroku:
+            NPM_CONFIG_PRODUCTION = false
+    Esto en caso que haya problemas entre las dependencies et devdependencies en el archivo package.json
+
 
 # PocOPS
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
